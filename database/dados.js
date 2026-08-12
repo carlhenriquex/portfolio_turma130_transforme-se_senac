@@ -79,8 +79,8 @@ const alunos = [
   formacoes: ["Tec em informática e estudando programação Front End"],
   experiencia: ["Entendimento em hardware", "software"],
   interesses: ["Artes Marciais, Informatica e UFC."],
-  github: "",
-  linkedin: ""
+  github: "https://github.com/marcioart878-stack",
+  linkedin: "www.linkedin.com/in/márcio-eduardo-862440302 "
 },
     //aluno  9 incompleto
 { 
