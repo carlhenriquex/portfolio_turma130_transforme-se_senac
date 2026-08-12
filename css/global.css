@@ -1,0 +1,24 @@
+/* Definicoes de estilos globais (para todo o projeto) */
+
+:root {
+    --fonte: "Montserrat", sans-serif;
+
+    --background: #070628;
+    --card-color: #101034;
+    --secondary-color: #F6BE36;
+    --font-color: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: var(--fonte);
+}
+
+body {
+    background-color: var(--background);
+    color: var(--font-color);
+}
