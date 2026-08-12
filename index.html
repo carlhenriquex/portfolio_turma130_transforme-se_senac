@@ -71,7 +71,126 @@
     <!-- Márcio Eduardo -->
     <section class="quem-somos">
 
-    </section>
+        <div class="header-secao">
+        <h2><span>QUEM</span> SOMOS</h2>
+        <div class="divider">
+            <span class="star">★</span>
+        </div>
+        </div>
+
+        <!-- Cards Superiores -->
+        <div class="cards-container">
+        <!-- Card 1 -->
+        <div class="card">
+            <div class="card-header">
+            <div class="icon-circle">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                <circle cx="9" cy="7" r="4"></circle>
+                <path d="M23 21v-2a4 4 0 0 3-3.87"></path>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+            </div>
+            <h3>Quem somos?</h3>
+            </div>
+            <p>
+            Somos a turma 130 do projeto Transforme-se 2026, projeto que visa a capacitação profissional de desenvolvedores front-end, preparados para planejar, desenvolver e manter interfaces webs modernas e intuitivas para o mercado.
+            </p>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+            <div class="card-header">
+            <div class="icon-circle">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+            </div>
+            <h3>Domínio técnico:</h3>
+            </div>
+            <p>
+            Nesta formação aprendemos conceitos fundamentais de design, lógica e prototipação. Desenvolvendo habilidades em Design de interfaces, lógica da programação com JavaScript, além de HTML, CSS e responsividade.
+            </p>
+        </div>
+        </div>
+
+        <!-- Contêiner Inferior da Linha do Tempo -->
+        <div class="cards-timeline-section">
+        <!-- Balão de Mensagem Único Flutuante -->
+        <div class="uc-popover" id="ucPopover" style="display: none;">
+            <p id="popoverText">Texto do balão para a UC.</p>
+        </div>
+
+        <!-- Linha do Tempo -->
+        <div class="uc-timeline">
+            <div class="timeline-line"></div>
+            
+            <!-- UC1 -->
+            <div class="uc-item">
+            <button class="uc-circle" type="button" aria-expanded="false" 
+                    data-popover-text="Aqui aprendemos os fundamentos essenciais para começar no desenvolvimento web: Git/GitHub, Terminal e as bases das tecnologias principais.">
+                UC1
+            </button>
+            <p class="uc-label">FUNDAMENTOS DO FRONT END</p>
+            </div>
+            
+            <!-- UC2 -->
+            <div class="uc-item">
+            <button class="uc-circle" type="button" aria-expanded="false" 
+                    data-popover-text="Design de Interfaces e UX/UI. Criamos layouts acessíveis e atraentes no Figma.">
+                UC2
+            </button>
+            <p class="uc-label">DESIGN DE INTERFACES</p>
+            </div>
+
+            <!-- UC3 -->
+            <div class="uc-item">
+            <button class="uc-circle" type="button" aria-expanded="false" 
+                    data-popover-text="Desenvolvemos o pensamento computacional e a lógica usando algoritmos complexos.">
+                UC3
+            </button>
+            <p class="uc-label">LÓGICA E ALGORITMOS</p>
+            </div>
+
+            <!-- UC4 -->
+            <div class="uc-item">
+            <button class="uc-circle" type="button" aria-expanded="false" 
+                    data-popover-text="Dominamos o núcleo do JavaScript moderno: ES6+, manipulação de DOM e assincronismo.">
+                UC4
+            </button>
+            <p class="uc-label">JAVASCRIPT MODERNO</p>
+            </div>
+
+            <!-- UC5 -->
+            <div class="uc-item">
+            <button class="uc-circle" type="button" aria-expanded="false" 
+                    data-popover-text="Garantimos que nossas páginas sejam acessíveis e entendidas pelos motores de busca.">
+                UC5
+            </button>
+            <p class="uc-label">HTML E SEMÂNTICA</p>
+            </div>
+
+            <!-- UC6 -->
+            <div class="uc-item">
+            <button class="uc-circle" type="button" aria-expanded="false" 
+                    data-popover-text="Estilização avançada com Flexbox, Grid, Animações e SASS/PostCSS.">
+                UC6
+            </button>
+            <p class="uc-label">CSS E ESTILIZAÇÃO</p>
+            </div>
+
+            <!-- UC7 -->
+            <div class="uc-item">
+            <button class="uc-circle" type="button" aria-expanded="false" 
+                    data-popover-text="O grande final: Um projeto completo feito do zero, com design responsivo e foco na melhor UX para o usuário final.">
+                UC7
+            </button>
+            <p class="uc-label">RESPONSIVIDADE E UX</p>
+            </div>
+        </div>
+        </div>
+  </section>
     
     <!-- Carlos Henrique -->
     <section class="turma">
@@ -215,4 +334,5 @@
 
     </footer>
 </body>
+    <script src="database/animacao-quemsomos.js"></script>
 </html>
