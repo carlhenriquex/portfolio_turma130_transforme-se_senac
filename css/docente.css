@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+}
+
+body {
+    background: #05052d;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.docentes {
+    width: 100%;
+    min-height: 100vh;
+
+    padding: 50px 7%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo {
+    width: 100%;
+    max-width: 1400px;
+
+    margin: 0 auto 35px;
+}
+
+.titulo h1 {
+    font-size: clamp(40px, 4vw, 65px);
+    font-weight: 900;
+}
+
+.titulo h1 span {
+    color: #ffbf19;
+}
+
+.linha {
+    width: 210px;
+    height: 3px;
+    margin-top: 10px;
+    background: linear-gradient(
+        to right,
+        #ffbf19 0,
+        #ffbf19 44%,
+        transparent 44%,
+        transparent 56%,
+        #ffbf19 56%,
+        #ffbf19 100%
+    );
+    position: relative;
+}
+
+.linha::after {
+    content: "★";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -52%);
+    color: #ffbf19;
+    background: #05052d;
+    padding: 0 6px;
+    font-size: 14px;
+}
+
+.conteudo {
+    width: 100%;
+    max-width: 1400px;
+
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 25px;
+}
+
+.perfil {
+    width: 280px;
+    flex-shrink: 0;
+
+    padding: 12px 20px 22px;
+
+    background: #0c0c3a;
+
+    border-radius: 30px;
+
+    text-align: center;
+}
+
+.perfil img {
+    width: 100%;
+    height: 340px;
+
+    object-fit: cover;
+
+    border: 2px solid #ffbf19;
+
+    border-radius: 20px;
+}
+
+.perfil h2 {
+    margin-top: 10px;
+
+    font-size: 26px;
+
+    line-height: 25px;
+}
+
+.perfil h2 span {
+    display: block;
+
+    color: #ffbf19;
+}
+
+.perfil p {
+    width: fit-content;
+
+    margin: 16px auto 0;
+
+    padding: 5px 14px;
+
+    border: 2px solid #ffbf19;
+
+    border-radius: 15px;
+
+    color: #ffbf19;
+
+    font-size: 13px;
+
+    font-weight: bold;
+}
+
+.area-cards {
+    width: auto;
+}
+
+.cards {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 18px;
+}
+
+.card {
+    width: 250px;
+    min-height: 340px;
+
+    flex: none;
+
+    padding: 28px 20px;
+
+    background: #0d0d3d;
+
+    border: 1px solid #ffbf19;
+    border-bottom-color: transparent;
+
+    border-radius: 30px;
+
+    text-align: center;
+}
+
+.icone {
+    width: 48px;
+    height: 48px;
+
+    margin: 0 auto 10px;
+
+    border: 2px solid #ffbf19;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #ffbf19;
+
+    font-size: 20px;
+}
+
+.card h3 {
+    color: #ffbf19;
+
+    font-size: 16px;
+}
+
+.linha-card {
+    width: 45px;
+    height: 2px;
+
+    margin: 12px auto 16px;
+
+    background: #ffbf19;
+}
+
+.card p {
+    font-size: 14px;
+
+    line-height: 1.4;
+
+    font-weight: 600;
+}
+
+.card p + p {
+    margin-top: 20px;
+}
+
+.navegacao {
+    margin-top: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+}
+
+.navegacao button {
+    border: none;
+
+    background: transparent;
+
+    color: white;
+
+    cursor: pointer;
+}
+
+#anterior,
+#proximo {
+    font-size: 30px;
+}
+
+.bolinha {
+    width: 8px;
+    height: 8px;
+
+    padding: 0;
+
+    border-radius: 50%;
+
+    background: white !important;
+}
+
+.bolinha.ativo {
+    background: #ffbf19 !important;
+}
+
+@media (max-width: 1050px) {
+
+    .conteudo {
+        align-items: flex-start;
+    }
+
+    .cards {
+        display: block;
+    }
+
+    .card {
+        display: none;
+
+        width: min(360px, 100%);
+    }
+
+    .card.ativo {
+        display: block;
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    .docentes {
+        padding: 35px 18px;
+    }
+
+    .titulo {
+        text-align: center;
+
+        margin-bottom: 25px;
+    }
+
+    .linha {
+        margin: 10px auto 0;
+    }
+
+    .conteudo {
+        flex-direction: column;
+
+        align-items: center;
+
+        gap: 22px;
+    }
+
+    .perfil {
+        width: min(340px, 100%);
+    }
+
+    .perfil img {
+        height: auto;
+
+        aspect-ratio: 0.8;
+    }
+
+    .area-cards {
+        width: 100%;
+    }
+
+    .card {
+        width: min(360px, 100%);
+
+        min-height: 320px;
+
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width: 380px) {
+
+    .docentes {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .card {
+        padding: 24px 16px;
+    }
+
+}
