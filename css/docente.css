@@ -83,7 +83,7 @@ body {
 
     padding: 12px 20px 22px;
 
-    background: #0c0c3a;
+    background: var(--card-color);
 
     border-radius: 30px;
 
@@ -145,7 +145,7 @@ body {
     gap: 18px;
 }
 
-.card {
+.card-docente {
     width: 250px;
     min-height: 340px;
 
@@ -156,7 +156,6 @@ body {
     background: #0d0d3d;
 
     border: 1px solid #ffbf19;
-    border-bottom-color: transparent;
 
     border-radius: 30px;
 
@@ -182,10 +181,14 @@ body {
     font-size: 20px;
 }
 
-.card h3 {
+.card-docente h3 {
     color: #ffbf19;
 
     font-size: 16px;
+}
+
+.card-docente img {
+    width: 27px;
 }
 
 .linha-card {
@@ -197,7 +200,7 @@ body {
     background: #ffbf19;
 }
 
-.card p {
+.card-docente p {
     font-size: 14px;
 
     line-height: 1.4;
@@ -205,7 +208,7 @@ body {
     font-weight: 600;
 }
 
-.card p + p {
+.card-docente p + p {
     margin-top: 20px;
 }
 
@@ -259,13 +262,13 @@ body {
         display: block;
     }
 
-    .card {
+    .card-docente {
         display: none;
 
         width: min(360px, 100%);
     }
 
-    .card.ativo {
+    .card-docente.ativo {
         display: block;
     }
 
@@ -309,7 +312,7 @@ body {
         width: 100%;
     }
 
-    .card {
+    .card-docente {
         width: min(360px, 100%);
 
         min-height: 320px;
@@ -326,7 +329,7 @@ body {
         padding-right: 12px;
     }
 
-    .card {
+    .card-docente {
         padding: 24px 16px;
     }
 

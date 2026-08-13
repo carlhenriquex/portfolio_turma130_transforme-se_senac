@@ -1,23 +1,6 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-  
-  body {
-    background-color: #080915;
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    padding: 40px 20px;
-  }
-  
   .quem-somos {
-    max-width: 1200px;
     width: 100%;
+    padding-inline: 14%;
   }
   
   /* Header */
@@ -58,7 +41,8 @@
   /* Cards Superiores */
   .cards-container {
     display: flex;
-    gap: 30px;
+    justify-content: center;
+    gap: 80px;
     margin-bottom: 40px;
   }
   
