@@ -16,11 +16,11 @@ const alunos = [
 {
   foto:"img/andrea.jpg",
   nome: "Andréa Verônica Silva Menezes",
-  formacoes: ["Informática Básica e Desenvolvimento de Sistemas"],
+  formacoes: ["Informática Básica","Desenvolvimento de Sistemas"],
   experiencia: ["Marketing Digital"],
   interesses: ["Desenvolvimento de Sistemas","Design"],
   github: "Andreaveronica20003-fonte (Andréasilvaa)",
-  linkedin: "Andreaa Veronica | LinkedIn"
+  linkedin: "https://www.linkedin.com/in/adriellyvelozotech/"
 },
     // aluno 3
 {
@@ -82,15 +82,15 @@ const alunos = [
   github: "https://github.com/marcioart878-stack",
   linkedin: "www.linkedin.com/in/márcio-eduardo-862440302 "
 },
-    //aluno  9 incompleto
+    //aluno  9 
 { 
   foto: "img/mariaelisa.jpg",
   nome: "Maria Elisa Andrade de Santana",
   formacoes: ["Estudante de programação front end(em andamento)"],
   experiencia: ["Projetos front end"],
   interesses: [" Design"],
-  github: "",
-  linkedin: ""
+  github: "https://github.com/lisalizz2110-svg",
+  linkedin: "https://www.linkedin.com/in/maria-elisa-andrade-7b36b83a1/"
 },
     //Aluno 10
 {
@@ -116,21 +116,21 @@ const alunos = [
 {
   foto: "img/vitorgabriel.jpg",
   nome: "Vitor Gabriel Dantas Cruz de Oliveira",
-  formacoes: [" Ensino Medio Em Andamento"],
+  formacoes: [" Ensino Medio em andamento"],
   experiencia: ["Desenvolvimento em Front End"],
   interesses: ["Informática"],
   github: "https://github.com/02Vitinho",
   linkedin: "https://www.linkedin.com/in/gabriel-dantas-93b3b5412/"
 },
-    //Aluno 13 incompleto
+    //Aluno 13 
 {
   foto: "img/mariahelena.jpg",
   nome: "Maria Helena Chaves Gomes",
   formacoes: ["Tecnólogo em Análise de desenvolvimento em sistemas", "Pedagogia (em andamento)"],
   experiencia: ["Projetos acadêmicos na área de desenvolvimento front end","Estágios na área de pedagogia"],
   interesses: ["desing"],
-  github: "",
-  linkedin: ""
+  github: "https://github.com/lisalizz2110-svg",
+  linkedin: "www.linkedin.com/in/maria-helena-chaves-33296b372"
 },
 
     //Aluno 14
@@ -144,7 +144,80 @@ const alunos = [
   linkedin: "https://www.linkedin.com/in/messias-kayna-7741a4352/"
 },
 
+//Aluno 15 incompleto FALTA LINKEDIN E GITHUB
+{
+  foto: "img/danilo.jpg",
+  nome: "Danilo de Freitas da Silva",
+  formacoes: ["Auxiliar administrativo", "desenvolvedor Front-End", "técnico administrativo (em andamento)"],
+  experiencia: ["Atendimento ao cliente", "recepção", "vendedor"],
+  interesses: [" Engenharia mecânica", "engenharia automotiva", "marketing"],
+  github: "",
+  linkedin: ""
+},
 
+//Aluno 16 
+{
+  foto: "img/edinaldo.jpg",
+  nome: "Edinaldo da Silva Ramos",
+  formacoes: ["Estudante de Programação Front-end (em andamento)"],
+  experiencia: ["Designer UI"],
+  interesses: ["Desenvolvimento front-end"," Design UI"],
+  github: "https://github.com/edinaldodasilvaramoss-collab",
+  linkedin: "www.linkedin.com/in/edinaldo-ramos-a05785412"
+},
+
+// Aluno 17 
+{
+  foto: "img/ewerton.jpg",
+  nome: "Ewerton Henrique Lima da Silva",
+  formacoes: ["Montagem e Manutenção de Computadores", "Notebooks", "Gestão Empresarial com Software ERP", "Programação Front-end (em andamento)"],
+  experiencia: ["Suporte de TI", "Auxiliar administrativo"],
+  interesses: ["Desenvolvedor Fullstack"],
+  github: "EwertonHenriquex (Ewerton Henrique) ",
+  linkedin: "Ewerton Silva | LinkedIn"
+},
+//aluno 18 
+{   
+  foto: "img/flavio.jpg",
+  nome: "Flávio Aureliano Cordeiro Coutinho Filho",
+  formacoes: ["Análise de dados", "Desenvolvimento de sistemas", "Suporte técnico", "Help desk"],
+  experiencia: ["Jovem aprendiz TI", "Estágio suporte interno TI"],
+  interesses: ["Cibersegurança"],
+  github: "https://github.com/flavioaccf ",
+  linkedin: "https://www.linkedin.com/in/fl%C3%A1vio-aureliano-dev/"
+},
+// Aluno 19
+{
+  foto: "img/isabely.jpg",
+  nome: "Isabely Cabral Sales",
+  formacoes: ["Tecnica de logística, Tecnica de administração", "Cursando tecnólogo de Gestão financeira"," Cursando programação Front-end. (em andamento) "],
+  experiencia: ["projetos de Front-end.", "administração", "área financeira"],
+  interesses: ["Desenvolvimento front-end"],
+  github: "https://github.com/ISABELY430",
+  linkedin: "www.linkedin.com/in/isabely-cabral-034915267"
+},
+// aluno 20 incompleto 
+{
+    
+  nome: "Maria Eduarda de Sousa Santana",
+  formacoes: ["Ciências Contábeis"],
+  experiencia: ["Analista Fiscal "],
+  interesses: ["  Análise de Dados e Desing Web"],
+  github: "",
+  linkedin: ""
+},
+//ALUNO 21 
+
+{
+  foto: "img/thamires.jpg",
+  nome: "Thamires Vitória Muniz da Silva",
+  formacoes: [" Tecnólogo em Análise de desenvolvimento em sistemas (em andamento)"],
+  experiencia: ["Experiência em projetos acadêmicos pelo Porto Digital", "DIO"," curso de Análise e Desenvolvimento de Sistemas pela ETE"],
+  interesses: ["FullStack"],
+  github: "https://github.com/Thamiresvitoria ",
+  linkedin: "https://www.linkedin.com/in/thamires-vitoria-muniz-da-silva-7b3878352/"
+},
+// Aluno 22 
 {
     
   nome: "",
@@ -154,8 +227,6 @@ const alunos = [
   github: "",
   linkedin: ""
 },
-
-
 {
     
   nome: "",
@@ -165,5 +236,22 @@ const alunos = [
   github: "",
   linkedin: ""
 },
-
+{
+    
+  nome: "",
+  formacoes: [""],
+  experiencia: "",
+  interesses: [""],
+  github: "",
+  linkedin: ""
+},
+{
+    
+  nome: "",
+  formacoes: [""],
+  experiencia: "",
+  interesses: [""],
+  github: "",
+  linkedin: ""
+},
 ];
