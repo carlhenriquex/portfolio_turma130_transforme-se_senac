@@ -51,6 +51,14 @@
 
     font-weight: bold;
     text-transform: uppercase;
+
+    padding: 8px 18px;
+
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(8px);
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
 }
 
 .logo img {
@@ -69,7 +77,10 @@
 
     padding: 15px 30px;
 
-    background: rgba(50, 20, 100, 0.6);
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(8px);
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 30px;
 }
 
