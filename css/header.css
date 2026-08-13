@@ -41,7 +41,7 @@
     padding: 0 7vw;
 }
 
-.logo {
+.navbar .logo {
     display: flex;
     align-items: center;
     gap: 12px;
