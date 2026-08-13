@@ -1,4 +1,4 @@
-const cards = document.querySelectorAll(".card");
+const cards = document.querySelectorAll(".card-docente");
 const bolinhas = document.querySelectorAll(".bolinha");
 
 const botaoAnterior = document.getElementById("anterior");
@@ -6,19 +6,23 @@ const botaoProximo = document.getElementById("proximo");
 
 let cardAtual = 0;
 
-function mostrarCard() {
+function atualizarCarrossel() {
 
-    cards.forEach(card => {
+    cards.forEach((card, index) => {
         card.classList.remove("ativo");
+
+        if (index === cardAtual) {
+            card.classList.add("ativo");
+        }
     });
 
-    bolinhas.forEach(bolinha => {
+    bolinhas.forEach((bolinha, index) => {
         bolinha.classList.remove("ativo");
+
+        if (index === cardAtual) {
+            bolinha.classList.add("ativo");
+        }
     });
-
-    cards[cardAtual].classList.add("ativo");
-    bolinhas[cardAtual].classList.add("ativo");
-
 }
 
 botaoProximo.addEventListener("click", () => {
@@ -29,8 +33,7 @@ botaoProximo.addEventListener("click", () => {
         cardAtual = 0;
     }
 
-    mostrarCard();
-
+    atualizarCarrossel();
 });
 
 botaoAnterior.addEventListener("click", () => {
@@ -41,20 +44,16 @@ botaoAnterior.addEventListener("click", () => {
         cardAtual = cards.length - 1;
     }
 
-    mostrarCard();
-
+    atualizarCarrossel();
 });
 
 bolinhas.forEach((bolinha, index) => {
 
     bolinha.addEventListener("click", () => {
-
         cardAtual = index;
 
-        mostrarCard();
-
+        atualizarCarrossel();
     });
-
 });
 
-mostrarCard();
+atualizarCarrossel();

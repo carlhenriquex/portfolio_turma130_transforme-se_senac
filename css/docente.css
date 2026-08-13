@@ -160,7 +160,18 @@ body {
     border-radius: 30px;
 
     text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.cards.trocando .card-docente {
+    transform: translateX(-15px);
+    box-shadow: 0 10px 25px rgba(255, 191, 25, 0.25);
+}
+
+.card-docente:hover {
+    transform: scale(1.04);
+    box-shadow: 0 15px 35px rgba(255, 183, 3, 0.2);
+  }
 
 .icone {
     width: 48px;
