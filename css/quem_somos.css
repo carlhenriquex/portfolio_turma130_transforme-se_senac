@@ -90,7 +90,7 @@
   .card {
     flex: 1;
     background: 
-      linear-gradient(#0d0f28, #08091a) padding-box,
+      linear-gradient(#101034) padding-box,
       linear-gradient(135deg, #ffb703 0%, #080915 100%) border-box;
     border: 2px solid transparent;
     border-radius: 24px;
@@ -106,7 +106,7 @@
   /* Contêiner Inferior da Linha do Tempo */
   .cards-timeline-section {
     background: 
-      linear-gradient(#0d0f28, #0d0f28) padding-box,
+      linear-gradient(#101034) padding-box,
       linear-gradient(135deg, #ffb703 0%, #080915 100%) border-box;
     border: 2px solid transparent;
     border-radius: 35px;

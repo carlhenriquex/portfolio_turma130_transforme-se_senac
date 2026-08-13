@@ -33,7 +33,7 @@ body {
 }
 
 .titulo h1 span {
-    color: #ffbf19;
+    color: #F6BE36;
 }
 
 .linha {
@@ -42,12 +42,12 @@ body {
     margin-top: 10px;
     background: linear-gradient(
         to right,
-        #ffbf19 0,
-        #ffbf19 44%,
+        #F6BE36 0,
+        #F6BE36 44%,
         transparent 44%,
         transparent 56%,
-        #ffbf19 56%,
-        #ffbf19 100%
+        #F6BE36 56%,
+        #F6BE36 100%
     );
     position: relative;
 }
@@ -58,7 +58,7 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -52%);
-    color: #ffbf19;
+    color: #F6BE36;
     background: #05052d;
     padding: 0 6px;
     font-size: 14px;
@@ -96,7 +96,7 @@ body {
 
     object-fit: cover;
 
-    border: 2px solid #ffbf19;
+    border: 2px solid #F6BE36;
 
     border-radius: 20px;
 }
@@ -112,7 +112,7 @@ body {
 .perfil h2 span {
     display: block;
 
-    color: #ffbf19;
+    color: #F6BE36;
 }
 
 .perfil p {
@@ -122,11 +122,11 @@ body {
 
     padding: 5px 14px;
 
-    border: 2px solid #ffbf19;
+    border: 2px solid #F6BE36;
 
     border-radius: 15px;
 
-    color: #ffbf19;
+    color: #F6BE36;
 
     font-size: 13px;
 
@@ -153,9 +153,9 @@ body {
 
     padding: 28px 20px;
 
-    background: #0d0d3d;
+    background: #101034;
 
-    border: 1px solid #ffbf19;
+    border: 1px solid #F6BE36;
 
     border-radius: 30px;
 
