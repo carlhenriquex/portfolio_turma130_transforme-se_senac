@@ -80,7 +80,7 @@ const alunos = [
   experiencia: ["Entendimento em hardware", "software"],
   interesses: ["Artes Marciais, Informatica e UFC."],
   github: "https://github.com/marcioart878-stack",
-  linkedin: "www.linkedin.com/in/márcio-eduardo-862440302 "
+  linkedin: "https://www.linkedin.com/in/márcio-eduardo-862440302"
 },
     //aluno  9 
 { 
@@ -130,7 +130,7 @@ const alunos = [
   experiencia: ["Projetos acadêmicos na área de desenvolvimento front end","Estágios na área de pedagogia"],
   interesses: ["desing"],
   github: "https://github.com/lisalizz2110-svg",
-  linkedin: "www.linkedin.com/in/maria-helena-chaves-33296b372"
+  linkedin: "https://www.linkedin.com/in/maria-helena-chaves-33296b372"
 },
 
     //Aluno 14
@@ -163,7 +163,7 @@ const alunos = [
   experiencia: ["Designer UI"],
   interesses: ["Desenvolvimento front-end"," Design UI"],
   github: "https://github.com/edinaldodasilvaramoss-collab",
-  linkedin: "www.linkedin.com/in/edinaldo-ramos-a05785412"
+  linkedin: "https://www.linkedin.com/in/edinaldo-ramos-a05785412"
 },
 
 // Aluno 17 
@@ -194,7 +194,7 @@ const alunos = [
   experiencia: ["projetos de Front-end.", "administração", "área financeira"],
   interesses: ["Desenvolvimento front-end"],
   github: "https://github.com/ISABELY430",
-  linkedin: "www.linkedin.com/in/isabely-cabral-034915267"
+  linkedin: "https://www.linkedin.com/in/isabely-cabral-034915267"
 },
 // aluno 20 incompleto 
 {
