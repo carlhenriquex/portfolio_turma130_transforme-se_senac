@@ -46,7 +46,7 @@
     align-items: center;
     gap: 12px;
 
-    color: white;
+    color: var(--font-color);
     text-decoration: none;
 
     font-weight: bold;
@@ -85,7 +85,7 @@
 }
 
 .navbar li a {
-    color: white;
+    color: var(--font-color);
     text-decoration: none;
 
     font-size: 14px;
@@ -103,8 +103,6 @@ main {
     z-index: 2;
 
     margin: 110px 0 0 150px;
-
-    color: white;
 }
 
 h1,
@@ -114,9 +112,9 @@ h2 {
     font-weight: 800;
 }
 
-h1 span,
-h2 span {
-    color: #ffd21c;
+.hero h1 span,
+.hero h2 span {
+    color: var(--secondary-color);
 }
 
 hr {
@@ -124,7 +122,7 @@ hr {
     margin: 25px 0;
 
     border: 0;
-    border-top: 3px solid white;
+    border-top: 3px solid var(--font-color);
 }
 
 main p {

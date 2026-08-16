@@ -3,41 +3,6 @@
     padding-inline: 14%;
   }
   
-  /* Header */
-  .header-secao {
-    text-align: center;
-    margin-bottom: 40px;
-  }
-  
-  .header-secao h2 {
-    font-size: 2.8rem;
-    font-weight: 900;
-    letter-spacing: 2px;
-    color: #ffffff;
-  }
-  
-  .header-secao h2 span {
-    color: #ffb703;
-  }
-  
-  .divider {
-    position: relative;
-    width: 250px;
-    height: 2px;
-    background: linear-gradient(90deg, #080915 0%, #ffb703 50%, #080915 100%);
-    margin: 15px auto 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .star {
-    color: #ffb703;
-    background-color: #080915;
-    padding: 0 8px;
-    font-size: 0.8rem;
-  }
-  
   /* Cards Superiores */
   .cards-container {
     display: flex;
@@ -48,8 +13,8 @@
   
  .card {
     flex: 1;
-    background: linear-gradient(135deg, #ffb703 0%, #0d0f28 40%, #080915 100%);
-    border: 1px solid #ffb703;
+    background: linear-gradient(135deg, var(--secondary-color) 0%, #0d0f28 40%, #080915 100%);
+    border: 1px solid var(--secondary-color);
     border-radius: 24px;
     padding: 35px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
@@ -67,7 +32,7 @@
     height: 48px;
     min-width: 48px;
     border-radius: 50%;
-    border: 2px solid #ffb703;
+    border: 2px solid var(--secondary-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -76,14 +41,14 @@
   .icon-circle svg {
     width: 24px;
     height: 24px;
-    stroke: #ffb703;
+    stroke: var(--secondary-color);
   }
   
   .card-header h3 {
-    color: #ffb703;
+    color: var(--secondary-color);
     font-size: 1.3rem;
     font-weight: 700;
-    border-bottom: 2px solid #ffb703;
+    border-bottom: 2px solid var(--secondary-color);
     padding-bottom: 4px;
   }
   
@@ -91,7 +56,7 @@
     flex: 1;
     background: 
       linear-gradient(#101034) padding-box,
-      linear-gradient(135deg, #ffb703 0%, #080915 100%) border-box;
+      linear-gradient(135deg, var(--secondary-color) 0%, #080915 100%) border-box;
     border: 2px solid transparent;
     border-radius: 24px;
     padding: 35px;
@@ -107,7 +72,7 @@
   .cards-timeline-section {
     background: 
       linear-gradient(#101034) padding-box,
-      linear-gradient(135deg, #ffb703 0%, #080915 100%) border-box;
+      linear-gradient(135deg, var(--secondary-color) 0%, #080915 100%) border-box;
     border: 2px solid transparent;
     border-radius: 35px;
     padding: 40px 20px 30px 20px;
@@ -128,7 +93,7 @@
     left: 5%;
     right: 5%;
     height: 2px;
-    background-color: #ffb703;
+    background-color: var(--secondary-color);
     z-index: 1;
   }
   
@@ -147,7 +112,7 @@
     height: 65px;
     border-radius: 50%;
     background-color: #08091a;
-    border: 2px solid #ffb703;
+    border: 2px solid var(--secondary-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -167,9 +132,9 @@
   }
   
   .uc-circle.active {
-    background-color: #ffb703;
+    background-color: var(--secondary-color);
     color: #08091a;
-    box-shadow: 0 0 20px #ffb703;
+    box-shadow: 0 0 20px var(--secondary-color);
   }
   
   .uc-label {
@@ -186,7 +151,7 @@
     width: 250px;
     background: 
       linear-gradient(#08091a, #08091a) padding-box,
-      linear-gradient(135deg, #ffb703 0%, #080915 100%) border-box;
+      linear-gradient(135deg, var(--secondary-color) 0%, #080915 100%) border-box;
     border: 2px solid transparent;
     border-radius: 15px;
     padding: 15px 18px;
@@ -211,12 +176,11 @@
     transform: translateX(-50%);
     border-width: 10px;
     border-style: solid;
-    border-color: #ffb703 transparent transparent transparent;
+    border-color: var(--secondary-color) transparent transparent transparent;
   }
   
   .uc-popover p {
     font-size: 0.82rem;
-    color: #ffffff;
     text-align: left;
     line-height: 1.4;
     margin: 0;
