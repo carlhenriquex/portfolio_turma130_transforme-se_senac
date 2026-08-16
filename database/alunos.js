@@ -144,15 +144,15 @@ const alunos = [
   linkedin: "https://www.linkedin.com/in/messias-kayna-7741a4352/"
 },
 
-//Aluno 15 incompleto FALTA LINKEDIN E GITHUB
+//Aluno 15
 {
   foto: "img/danilo.jpg",
   nome: "Danilo de Freitas da Silva",
   formacoes: ["Auxiliar administrativo", "desenvolvedor Front-End", "técnico administrativo (em andamento)"],
   experiencia: ["Atendimento ao cliente", "recepção", "vendedor"],
   interesses: [" Engenharia mecânica", "engenharia automotiva", "marketing"],
-  github: "",
-  linkedin: ""
+  github: "https://github.com/danilodf254280-ctrl",
+  linkedin: "https://www.linkedin.com/in/danilofreitas08/"
 },
 
 //Aluno 16 
@@ -217,41 +217,35 @@ const alunos = [
   github: "https://github.com/Thamiresvitoria ",
   linkedin: "https://www.linkedin.com/in/thamires-vitoria-muniz-da-silva-7b3878352/"
 },
-// Aluno 22 
+// Aluno 22 incompleto
 {
-    
-  nome: "",
-  formacoes: [""],
+  foto:"img/kawanne.jpg",
+  nome: "Kawanne Ketllyn da Silva de Santana",
+  formacoes: ["Ensino médio completo"],
+  experiencia: [" Desenvolvimento front-end. (em andamento)"],
+  interesses: ["Fullstack"],
+  github: "",
+  linkedin: "https://www.linkedin.com/in/kawanne-ketllyn-92b596172/"
+},
+//Aluno 23 incompleto
+{
+  foto:
+  nome: "Joao Vitor Atila Gomes dos Santos",
+  formacoes: ["Análise e desenvolvimento (em andamento)", "Suporte técnico", "Eletrônica básica"],
+  experiencia: [ "Consertos de eletrodomésticos", "Computadores", "Controles e Componentes", "Desenvolvimento básico na área de Java script"], 
+  interesses: ["Desenvolver mais na área de sistemas e fazer Network"],
+  github: "",
+  linkedin: "https://www.linkedin.com/in/joão-vitor-157b5b361/"
+},
+ //Aluno 24 incompleto
+{
+  foto:"img/mariaeduardafe.jpg",
+  nome: "Maria Eduarda Ferreira da Silva",
+  formacoes: ["Ensino médio completo"],
   experiencia: "",
   interesses: [""],
   github: "",
   linkedin: ""
 },
-{
-    
-  nome: "",
-  formacoes: [""],
-  experiencia: "",
-  interesses: [""],
-  github: "",
-  linkedin: ""
-},
-{
-    
-  nome: "",
-  formacoes: [""],
-  experiencia: "",
-  interesses: [""],
-  github: "",
-  linkedin: ""
-},
-{
-    
-  nome: "",
-  formacoes: [""],
-  experiencia: "",
-  interesses: [""],
-  github: "",
-  linkedin: ""
-},
+
 ];
