@@ -19,7 +19,7 @@
 
     background:
         linear-gradient(90deg, var(--background), transparent 100%),
-        url("../img/Mídia.jpg");
+        url("../img/banners/Mídia.jpg");
 
     background-size: cover;
     background-position: center;
