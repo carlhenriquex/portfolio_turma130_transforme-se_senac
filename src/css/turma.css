@@ -18,3 +18,28 @@
     width: 100%;
     height: 100px;
 }
+
+.box-lista-alunos .lista-alunos {
+    display: flex;
+    gap: 2rem;
+}
+
+.lista-alunos .aluno {
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+}
+
+.lista-alunos .aluno .box-img-aluno {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid var(--secondary-color);
+    overflow: hidden;
+}
+
+.lista-alunos .aluno .box-img-aluno img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
