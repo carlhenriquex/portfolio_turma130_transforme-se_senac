@@ -433,7 +433,7 @@ O arquivo foi desenvolvido no formato **Draw.io**, sendo utilizado para represen
 
 ## 🏫 Instituição
 
-**Serviço Nacional de Aprendizagem Comercial — SENAC**
+**SENAC**
 
 **Projeto Transforme-se 2026**
 
