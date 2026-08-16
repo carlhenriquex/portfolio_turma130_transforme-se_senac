@@ -229,8 +229,8 @@ const alunos = [
 },
 //Aluno 23 incompleto
 {
-  foto:
-  nome: "Joao Vitor Atila Gomes dos Santos",
+  foto: "",
+  nome:"Joao Vitor Atila Gomes dos Santos",
   formacoes: ["Análise e desenvolvimento (em andamento)", "Suporte técnico", "Eletrônica básica"],
   experiencia: [ "Consertos de eletrodomésticos", "Computadores", "Controles e Componentes", "Desenvolvimento básico na área de Java script"], 
   interesses: ["Desenvolver mais na área de sistemas e fazer Network"],
