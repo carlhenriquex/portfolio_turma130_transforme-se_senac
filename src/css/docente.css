@@ -335,3 +335,59 @@
     }
 
 }
+
+/* =============================== */
+/* CARROSSEL ENTRE AS DOCENTES */
+/* =============================== */
+
+.conteudo.docente-slide {
+    display: none;
+}
+
+.conteudo.docente-slide.ativo {
+    display: flex;
+}
+
+
+/* NAVEGAÇÃO DAS DOCENTES */
+
+.navegacao-docentes {
+    width: 100%;
+
+    margin-top: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+}
+
+.navegacao-docentes button {
+    border: none;
+    background: transparent;
+
+    color: white;
+
+    cursor: pointer;
+}
+
+#docente-anterior,
+#docente-proximo {
+    font-size: 30px;
+}
+
+.bolinha-docente {
+    width: 9px;
+    height: 9px;
+
+    padding: 0;
+
+    border-radius: 50%;
+
+    background: white;
+}
+
+.bolinha-docente.ativo {
+    background: var(--secondary-color);
+}
