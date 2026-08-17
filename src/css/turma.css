@@ -7,6 +7,11 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    background-image: url(../img/banners/banner_turma.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 850px;
 }
 
 .turma .box-carrossel-fotografias {
@@ -22,6 +27,7 @@
 .box-lista-alunos .lista-alunos {
     display: flex;
     gap: 2rem;
+    padding-inline: 7%;
 }
 
 .lista-alunos .aluno {
