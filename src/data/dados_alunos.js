@@ -1,8 +1,8 @@
 // Lista de alunos
-const alunos = [
+export const alunos = [
 
   {
-    foto: "../img/alunos/adriele.jpg",
+    foto: "src/img/alunos/adriele.jpg",
     nome: "Adrielly Alexandra",
     formacoes: ["Análise e Desenvolvimento de Sistemas"],
     experiencia: "Hackathon, Auditoria de Qualidade",
@@ -12,7 +12,7 @@ const alunos = [
   },
   
   {
-    foto:"../img/alunos/andrea.jpg",
+    foto:"src/img/alunos/andrea.jpg",
     nome: "Andréa Verônica",
     formacoes: ["Informática Básica","Desenvolvimento de Sistemas"],
     experiencia: "Marketing Digital",
@@ -22,37 +22,39 @@ const alunos = [
   },
 
   {
-    foto: "../img/alunos/caio.jpg",
+    foto: "src/img/alunos/caio.jpg",
     nome: "Caio Cesar",
     formacoes: ["Ciência da Computação"],
     experiencia: "Hackathons, Ideathons e Projetos Frontend",
-    interesses: "Fullstack Development ",
+    interesses: "Fullstack Development",
     github: "https://github.com/caiooozs",
     linkedin: "https://www.linkedin.com/in/caioccesar/"
   },
 
   {   
-    foto: "../img/alunos/carlos.jpg",
+    foto: "src/img/alunos/carlos.jpg",
     nome: "Carlos Henrique",
-    formacoes: ["Técnico em Desenvolvimento de Sistemas", "Design Gráfico", "Ciência da Computação"],
+    funcao: "Desenvolvedor back-end",
+    formacoes: ["Ciência da Computação", "Tec. Desenvolvimento de Sistemas", "Tec. Design Gráfico", "Tec. Informática para Internet"],
     experiencia: "Professor de DevOps",
-    interesses: "Back-end developer, DevOps Engineer",
+    interesses: "Back-end developer e DevOps Engineer",
     github: "https://github.com/carlhenriquex",
     linkedin: "https://www.linkedin.com/in/carloshenriquex"
   },
 
   {
-    foto: "../img/alunos/dacyrrose.jpg",
+    foto: "src/img/alunos/dacyrrose.jpg",
     nome: "Dacyrrôse Pessoa",
+    funcao: "Scrum Master & QA",
     formacoes: ["Análise e Desenvolvimento de Sistemas"],
-    experiencia: "Hackathons, Ideathons",
+    experiencia: "Hackathons e Ideathons",
     interesses: "Desenvolvimento Full-Stack, RPA e QA",
     github: "https://github.com/Myoui-sys",
     linkedin: "https://www.linkedin.com/in/dacyrrose-melo/"
   },
 
   { 
-    foto: "../img/alunos/evellyn.jpg",
+    foto: "src/img/alunos/evellyn.jpg",
     nome: "Evellyn Amelia",
     formacoes: ["Análise e Desenvolvimento de Sistemas","Publicidade e Propaganda"],
     experiencia: "Designer UX/UI, Marketing Digital",
@@ -62,7 +64,7 @@ const alunos = [
   },
 
   { 
-    foto: "../img/alunos/lucas.jpg",
+    foto: "src/img/alunos/lucas.jpg",
     nome: "Lucas Leite de Andrade Porto Americo",
     formacoes: ["Programação Front-end (em andamento)"],
     experiencia: "Design UX e Projetos de Front-end",
@@ -72,7 +74,7 @@ const alunos = [
   },
 
   {
-    foto: "../img/alunos/marcio.jpg",
+    foto: "src/img/alunos/marcio.jpg",
     nome: "Márcio Eduardo",
     formacoes: ["Técnico em Informática", "Programação Front-end (em andamento)"],
     experiencia: "Entendimento em hardware, Software",
@@ -82,7 +84,7 @@ const alunos = [
   },
 
   { 
-    foto: "../img/alunos/elisa.jpg",
+    foto: "src/img/alunos/elisa.jpg",
     nome: "Maria Elisa",
     formacoes: ["Programação Front-end (em andamento)"],
     experiencia: "Projetos Front end",
@@ -92,7 +94,7 @@ const alunos = [
   },
 
   {
-    foto: "../img/alunos/matheus.jpg",
+    foto: "src/img/alunos/matheus.jpg",
     nome: "Matheus Marques",
     formacoes: ["Análise e Desenvolvimento de Sistemas (em andamento)"],
     experiencia: "Projetos acadêmicos na área de Desenvolvimento e Engenharia de software",
@@ -102,7 +104,7 @@ const alunos = [
   },
 
   { 
-    foto: "../img/alunos/sabrina.jpg",
+    foto: "src/img/alunos/sabrina.jpg",
     nome: "Sabrina Barros",
     formacoes: ["Análise e Desenvolvimento de Sistemas"],
     experiencia:"Projetos",
@@ -112,7 +114,7 @@ const alunos = [
   },
 
   {
-    foto: "../img/alunos/vitor.jpg",
+    foto: "src/img/alunos/vitor.jpg",
     nome: "Vitor Gabriel",
     formacoes: [" Ensino Médio (em andamento)"],
     experiencia: "Desenvolvimento em Front End",
@@ -122,7 +124,7 @@ const alunos = [
   },
 
   {
-    foto: "../img/alunos/helena.jpg",
+    foto: "src/img/alunos/helena.jpg",
     nome: "Maria Helena",
     formacoes: ["Análise e Desenvolvimento de Sistemas", "Pedagogia (em andamento)"],
     experiencia: "Projetos na área de Desenvolvimento Front End e Estágios na área de pedagogia",
@@ -132,7 +134,7 @@ const alunos = [
   },
 
   {
-    foto: "../img/alunos/messias.jpg",
+    foto: "src/img/alunos/messias.jpg",
     nome: "Messias Kaynã",
     formacoes: ["Ciência da Computação","Análise e Desenvolvimento de Sistemas (em andamento)"],
     experiencia: "Desenvolvedor front-end e Redes",
@@ -142,7 +144,7 @@ const alunos = [
   },
 
   {
-    foto: "../img/alunos/danilo.jpg",
+    foto: "src/img/alunos/danilo.jpg",
     nome: "Danilo de Freitas",
     formacoes: ["Auxiliar administrativo", "Desenvolvedor Front-End", "Técnico administrativo (em andamento)"],
     experiencia: "Atendimento ao cliente, Recepção e vendedor",
@@ -152,7 +154,7 @@ const alunos = [
   },
 
   {
-    foto: "../img/alunos/edinaldo.jpg",
+    foto: "src/img/alunos/edinaldo.jpg",
     nome: "Edinaldo da Silva",
     formacoes: ["Programação Front-end (em andamento)"],
     experiencia: "Designer UI",
@@ -162,7 +164,7 @@ const alunos = [
   },
 
   {
-    foto: "../img/alunos/ewerton.jpg",
+    foto: "src/img/alunos/ewerton.jpg",
     nome: "Ewerton Henrique",
     formacoes: ["Programação Front-end (em andamento)"],
     experiencia: "Suporte de TI, Auxiliar administrativo, Montagem e Manutenção de Computadores e Gestão Empresarial com Software ERP",
@@ -172,7 +174,7 @@ const alunos = [
   },
 
   {   
-    foto: "../img/alunos/flavio.jpg",
+    foto: "src/img/alunos/flavio.jpg",
     nome: "Flávio Aureliano",
     formacoes: ["Análise de dados", "Análise e Desenvolvimento de Sistemas", "Suporte técnico", "Help desk"],
     experiencia: "Jovem aprendiz TI, Estágio suporte interno TI",
@@ -182,7 +184,7 @@ const alunos = [
   },
 
   {
-    foto: "../img/alunos/isabely.jpg",
+    foto: "src/img/alunos/isabely.jpg",
     nome: "Isabely Cabral",
     formacoes: ["Técnico em Administração", "Técnico em Logística", "Tecnólogo em Gestão Financeira (em andamento)","Programação Front-end (em andamento)"],
     experiencia: "Projetos de Front-end, Administração e Área financeira",
@@ -192,7 +194,7 @@ const alunos = [
   },
 
   {
-    foto: "../img/alunos/eduarda.jpg",    
+    foto: "src/img/alunos/eduarda.jpg",    
     nome: "Eduarda Santana",
     formacoes: ["Ciências Contábeis"],
     experiencia: "Analista Fiscal",
@@ -202,9 +204,9 @@ const alunos = [
   },
 
   {
-    foto: "../img/alunos/thamires.jpg",
+    foto: "src/img/alunos/thamires.jpg",
     nome: "Thamires Vitória",
-    formacoes: ["Análise e Desenvolvimento de Sistemas (em andamento)"],
+    formacoes: ["Análise e Desenvolvimento de Sistemas"],
     experiencia: "Experiência em projetos acadêmicos pelo Porto Digital, DIO, curso de Análise e Desenvolvimento de Sistemas pela ETE",
     interesses: "FullStack" ,
     github: "https://github.com/Thamiresvitoria ",
@@ -212,7 +214,7 @@ const alunos = [
   },
 
   {
-    foto:"../img/alunos/kawanne.jpg",
+    foto:"src/img/alunos/kawanne.jpg",
     nome: "Kawanne Ketllyn",
     formacoes: ["Ensino médio completo"],
     experiencia: " Desenvolvimento front-end. (em andamento)",
@@ -222,9 +224,9 @@ const alunos = [
   },
 
   {
-    foto: "../img/alunos/joao.jpg",
+    foto: "src/img/alunos/joao.jpg",
     nome:"Joao Vitor",
-    formacoes: ["Análise e Desenvolvimento de Sistemas (em andamento)", "Suporte técnico", "Eletrônica básica"],
+    formacoes: ["Análise e Desenvolvimento de Sistemas", "Suporte técnico", "Eletrônica básica"],
     experiencia: "Consertos de eletrodomésticos, Computadores, Controles e Componentes e Desenvolvimento básico na área de Java script", 
     interesses: "Desenvolver mais na área de sistemas e fazer Network",
     github: "",
@@ -232,7 +234,7 @@ const alunos = [
   },
 
   {
-    foto:"../img/alunos/mariaeduardafe.jpg",
+    foto:"src/img/alunos/mariaeduardafe.jpg",
     nome: "Maria Eduarda",
     formacoes: ["Ensino Médio completo"],
     experiencia: "",

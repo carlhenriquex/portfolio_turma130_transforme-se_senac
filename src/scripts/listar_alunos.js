@@ -1,33 +1,83 @@
+import { alunos } from "../data/dados_alunos.js";
+
 const listaAlunos = document.getElementById("lista-alunos");
 
-fetch("./src/data/dados_alunos.js")
-    .then(response => response.json())
-    .then(alunos => {
+alunos.forEach(aluno => {
 
-        alunos.forEach(aluno => {
+    const formacoesHTML = aluno.formacoes
+        .map(formacao => `
+            <span class="formacao">${formacao}</span>
+        `)
+        .join("");
 
-            const elementoAluno = document.createElement("div");
+    const card = `
+        <div class="profile-wrapper">
 
-            elementoAluno.classList.add("aluno");
+            <img
+                src="${aluno.foto}"
+                alt="${aluno.nome}"
+                class="avatar-trigger"
+            >
 
-            elementoAluno.innerHTML = `
-                <div class="box-img-aluno">
-                    <img 
-                        src="src/img/alunos/${aluno.imagem}" 
-                        alt="${aluno.nome}"
+            <article class="profile-card">
+
+                <div class="card-info">
+
+                    <h3>Formações:</h3>
+
+                    <div class="formacoes">
+                        ${formacoesHTML}
+                    </div>
+
+                    <h3>Experiências:</h3>
+                    <p>${aluno.experiencia}</p>
+
+                    <h3>Interesses:</h3>
+                    <p>${aluno.interesses}</p>
+
+                </div>
+
+                <nav class="social-links">
+
+                    <a
+                        href="${aluno.github}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="GitHub"
                     >
-                </div>
+                        <i class="bi bi-github"></i>
+                    </a>
 
-                <div class="descricao-aluno">
-                    <h4 class="nome-aluno">${aluno.nome}</h4>
-                    <p class="funcao-aluno">${aluno.funcao}</p>
-                </div>
-            `;
+                    <a
+                        href="${aluno.linkedin}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="LinkedIn"
+                    >
+                        <i class="bi bi-linkedin"></i>
+                    </a>
 
-            listaAlunos.appendChild(elementoAluno);
-        });
+                </nav>
 
-    })
-    .catch(error => {
-        console.error("Erro ao carregar alunos:", error);
-    });
+                <footer class="card-footer">
+
+                    <img
+                        src="${aluno.foto}"
+                        alt="${aluno.nome}"
+                        class="avatar-mini"
+                    >
+
+                    <div>
+                        <h2>${aluno.nome}</h2>
+                        <span>${aluno.funcao}</span>
+                    </div>
+
+                </footer>
+
+            </article>
+
+        </div>
+    `;
+
+    listaAlunos.insertAdjacentHTML("beforeend", card);
+});
