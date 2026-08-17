@@ -17,8 +17,8 @@ const alunos = [
     formacoes: ["Informática Básica","Desenvolvimento de Sistemas"],
     experiencia: "Marketing Digital",
     interesses: "Desenvolvimento de Sistemas, Design",
-    github: "Andreaveronica20003-fonte (Andréasilvaa)",
-    linkedin: "https://www.linkedin.com/in/adriellyvelozotech/"
+    github: "https://github.com/andreaveronica20003-source",
+    linkedin: "https://www.linkedin.com/in/andreaa-veronica-29167a301/"
   },
 
   {
@@ -27,8 +27,8 @@ const alunos = [
     formacoes: ["Ciência da Computação"],
     experiencia: "Hackathons, Ideathons e Projetos Frontend",
     interesses: "Fullstack Development ",
-    github: "https://www.linkedin.com/in/caioccesar/",
-    linkedin: "https://github.com/caiooozs"
+    github: "https://github.com/caiooozs",
+    linkedin: "https://www.linkedin.com/in/caioccesar/"
   },
 
   {   
@@ -57,7 +57,7 @@ const alunos = [
     formacoes: ["Análise e Desenvolvimento de Sistemas","Publicidade e Propaganda"],
     experiencia: "Designer UX/UI, Marketing Digital",
     interesses: "Desenvolvimento Full-Stack, Designer Sênior",
-    github: "evellynamelia (Evelyn Amélia)",
+    github: "https://github.com/evellynamelia",
     linkedin: "https://www.linkedin.com/in/evellynamélia"
   },
 
@@ -67,8 +67,8 @@ const alunos = [
     formacoes: ["Programação Front-end (em andamento)"],
     experiencia: "Design UX e Projetos de Front-end",
     interesses: "Informática, Design e Administração",
-    github: "lucasandrade21porto-ops (lucaaasleite)",
-    linkedin: "Lucas Leite | LinkedIn"
+    github: "https://github.com/lucasandrade21porto-ops",
+    linkedin: "https://www.linkedin.com/in/lucas-andrade21/"
   },
 
   {
@@ -97,8 +97,8 @@ const alunos = [
     formacoes: ["Análise e Desenvolvimento de Sistemas (em andamento)"],
     experiencia: "Projetos acadêmicos na área de Desenvolvimento e Engenharia de software",
     interesses: " backend",
-    github: " Matheus-marques2",
-    linkedin: " Matheus Marques dos Santos | LinkedIn"
+    github: "https://github.com/Matheus-marques2",
+    linkedin: "https://www.linkedin.com/in/matheus-marques-santos/"
   },
 
   { 
@@ -127,7 +127,7 @@ const alunos = [
     formacoes: ["Análise e Desenvolvimento de Sistemas", "Pedagogia (em andamento)"],
     experiencia: "Projetos na área de Desenvolvimento Front End e Estágios na área de pedagogia",
     interesses: "Design",
-    github: "https://github.com/lisalizz2110-svg",
+    github: "https://github.com/gvrkz",
     linkedin: "https://www.linkedin.com/in/maria-helena-chaves-33296b372"
   },
 
@@ -167,8 +167,8 @@ const alunos = [
     formacoes: ["Programação Front-end (em andamento)"],
     experiencia: "Suporte de TI, Auxiliar administrativo, Montagem e Manutenção de Computadores e Gestão Empresarial com Software ERP",
     interesses: "Desenvolvedor Fullstack",
-    github: "EwertonHenriquex (Ewerton Henrique) ",
-    linkedin: "Ewerton Silva | LinkedIn"
+    github: "https://github.com/EwertonHenriquex",
+    linkedin: "https://www.linkedin.com/in/ewerton-silva-271341313/"
   },
 
   {   
@@ -198,7 +198,7 @@ const alunos = [
     experiencia: "Analista Fiscal",
     interesses: "Análise de Dados e Design Web",
     github: "",
-    linkedin: ""
+    linkedin: "https://www.linkedin.com/in/eduarda-santana-cont/"
   },
 
   {
