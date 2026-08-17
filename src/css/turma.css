@@ -15,9 +15,45 @@
     padding-top: 120px;
 }
 
-.turma .box-carrossel-fotografias {
+.galeria-polaroid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+}
+
+.polaroid {
+    width: 540px;
+    padding: 25px 25px 60px;
+    background: #ffffff;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease;
+}
+
+.polaroid img {
     width: 100%;
-    height: 350px;
+    height: 320px;
+    display: block;
+    object-fit: cover;
+}
+
+.polaroid-1 {
+    transform: rotate(-4deg);
+}
+
+.polaroid-2 {
+    transform: rotate(2deg);
+}
+
+.polaroid-3 {
+    transform: rotate(-2deg);
+}
+
+.polaroid:hover {
+    transform: rotate(0deg) translateY(-10px) scale(1.05);
+    z-index: 10;
 }
 
 .turma .box-lista-alunos {
