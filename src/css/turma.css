@@ -102,16 +102,17 @@
     transform: scale(1.05);
 }
 
-.turma .box-lista-alunos {
+.turma .carrossel-alunos {
     width: 100%;
     height: 100px;
     margin-top: 2rem;
 }
 
-.box-lista-alunos .lista-alunos {
+.carrossel-alunos .lista-alunos {
     display: flex;
     gap: 1.5rem;
     padding-inline: 3%;
+    flex-wrap: nowrap;
 }
 
 /* Container do elemento */

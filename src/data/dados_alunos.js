@@ -4,7 +4,7 @@ export const alunos = [
   {
     foto: "src/img/alunos/adriele.jpg",
     nome: "Adrielly Alexandra",
-    ffuncao: "Desenvolvedor front-end",
+    funcao: "Desenvolvedor front-end",
     formacoes: ["Análise e Desenvolvimento de Sistemas"],
     experiencia: "Hackathon, Auditoria de Qualidade",
     interesses: "Back-End Developer, Cybersegurança e Design",
@@ -148,7 +148,7 @@ export const alunos = [
     foto: "src/img/alunos/messias.jpg",
     nome: "Messias Kaynã",
     funcao: "Desenvolvedor front-end",
-    formacoes: ["Ciência da Computação","Análise e Desenvolvimento de Sistemas (em andamento)"],
+    formacoes: ["Ciência da Computação","Análise e Desenvolvimento de Sistemas"],
     experiencia: "Desenvolvedor front-end e Redes",
     interesses: "Cybersecurity e Desenvolvedor Full-Stack",
     github: "https://github.com/messiaskayna7",
@@ -158,7 +158,7 @@ export const alunos = [
   {
     foto: "src/img/alunos/danilo.jpg",
     nome: "Danilo de Freitas",
-    funcao: "QA qualidade",
+    funcao: "Quality  Assurance",
     formacoes: ["Auxiliar administrativo", "Desenvolvedor Front-End", "Técnico administrativo (em andamento)"],
     experiencia: "Atendimento ao cliente, Recepção e vendedor",
     interesses: "Engenharia mecânica, Engenharia automotiva e Marketing",
@@ -191,7 +191,7 @@ export const alunos = [
   {   
     foto: "src/img/alunos/flavio.jpg",
     nome: "Flávio Aureliano",
-    funcao: "QA qualidade",
+    funcao: "Quality Assurance",
     formacoes: ["Análise de dados", "Análise e Desenvolvimento de Sistemas", "Suporte técnico", "Help desk"],
     experiencia: "Jovem aprendiz TI, Estágio suporte interno TI",
     interesses: "Cibersegurança",
@@ -203,7 +203,7 @@ export const alunos = [
     foto: "src/img/alunos/isabely.jpg",
     nome: "Isabely Cabral",
     funcao: "Desenvolvedor front-end",
-    formacoes: ["Técnico em Administração", "Técnico em Logística", "Tecnólogo em Gestão Financeira (em andamento)","Programação Front-end"],
+    formacoes: ["Técnico em Administração", "Técnico em Logística", "Tecnólogo em Gestão Financeira","Programação Front-end"],
     experiencia: "Projetos de Front-end, Administração e Área financeira",
     interesses: "Desenvolvimento front-end",
     github: "https://github.com/ISABELY430",
@@ -242,7 +242,7 @@ export const alunos = [
     github: "",
     linkedin: "https://www.linkedin.com/in/kawanne-ketllyn-92b596172/"
   },
-
+/*
   {
     foto: "src/img/alunos/joao.jpg",
     nome:"Joao Vitor",
@@ -253,7 +253,7 @@ export const alunos = [
     github: "",
     linkedin: "https://www.linkedin.com/in/joão-vitor-157b5b361/"
   },
-
+*/
   {
     foto:"src/img/alunos/mariaeduardafe.jpg",
     funcao: "Desenvolvedor front-end",

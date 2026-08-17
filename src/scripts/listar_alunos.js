@@ -1,16 +1,15 @@
 import { alunos } from "../data/dados_alunos.js";
 
 const listaAlunos = document.getElementById("lista-alunos");
+const carrossel = document.querySelector(".carrossel-alunos");
 
-alunos.forEach(aluno => {
-
+// 1. Função para gerar o HTML do card
+function criarCardHTML(aluno) {
     const formacoesHTML = aluno.formacoes
-        .map(formacao => `
-            <span class="formacao">${formacao}</span>
-        `)
+        .map(formacao => `<span class="formacao">${formacao}</span>`)
         .join("");
 
-    const card = `
+    return `
         <div class="profile-wrapper">
 
             <img
@@ -78,6 +77,61 @@ alunos.forEach(aluno => {
 
         </div>
     `;
+}
 
-    listaAlunos.insertAdjacentHTML("beforeend", card);
+// 2. Renderiza os alunos originais
+alunos.forEach(aluno => {
+    listaAlunos.insertAdjacentHTML("beforeend", criarCardHTML(aluno));
 });
+
+// 3. Duplica os itens para permitir o loop infinito suave
+alunos.forEach(aluno => {
+    listaAlunos.insertAdjacentHTML("beforeend", criarCardHTML(aluno));
+});
+
+
+// ======================================
+// CARROSSEL AUTOMÁTICO INFINITO
+// ======================================
+
+let posicao = 0;
+const velocidade = 2;
+let pausado = false;
+
+function animarCarrossel() {
+    if (!pausado) {
+        posicao -= velocidade;
+
+        // O limite agora é exatamente a metade da largura total (largura dos cards originais)
+        const larguraConteudoOriginal = listaAlunos.scrollWidth / 2;
+
+        // Quando deslocar o equivalente ao grupo original completo, reseta suavemente
+        if (Math.abs(posicao) >= larguraConteudoOriginal) {
+            posicao = 0;
+        }
+
+        listaAlunos.style.transform = `translateX(${posicao}px)`;
+    }
+
+    requestAnimationFrame(animarCarrossel);
+}
+
+
+// ======================================
+// PAUSAR NO HOVER
+// ======================================
+
+carrossel.addEventListener("mouseenter", () => {
+    pausado = true;
+});
+
+carrossel.addEventListener("mouseleave", () => {
+    pausado = false;
+});
+
+
+// ======================================
+// INICIAR
+// ======================================
+
+animarCarrossel();
