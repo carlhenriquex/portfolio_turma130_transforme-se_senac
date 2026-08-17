@@ -4,6 +4,7 @@ export const alunos = [
   {
     foto: "src/img/alunos/adriele.jpg",
     nome: "Adrielly Alexandra",
+    funcao: "Designer UI",
     formacoes: ["Análise e Desenvolvimento de Sistemas"],
     experiencia: "Hackathon, Auditoria de Qualidade",
     interesses: "Back-End Developer, Cybersegurança e Design",
@@ -14,6 +15,7 @@ export const alunos = [
   {
     foto:"src/img/alunos/andrea.jpg",
     nome: "Andréa Verônica",
+    funcao: "Designer UI",
     formacoes: ["Informática Básica","Desenvolvimento de Sistemas"],
     experiencia: "Marketing Digital",
     interesses: "Desenvolvimento de Sistemas, Design",
@@ -24,6 +26,7 @@ export const alunos = [
   {
     foto: "src/img/alunos/caio.jpg",
     nome: "Caio Cesar",
+    funcao: "Tech Líder",
     formacoes: ["Ciência da Computação"],
     experiencia: "Hackathons, Ideathons e Projetos Frontend",
     interesses: "Fullstack Development",
@@ -56,6 +59,7 @@ export const alunos = [
   { 
     foto: "src/img/alunos/evellyn.jpg",
     nome: "Evellyn Amelia",
+    funcao: "Designer Líder",
     formacoes: ["Análise e Desenvolvimento de Sistemas","Publicidade e Propaganda"],
     experiencia: "Designer UX/UI, Marketing Digital",
     interesses: "Desenvolvimento Full-Stack, Designer Sênior",

@@ -105,32 +105,13 @@
 .turma .box-lista-alunos {
     width: 100%;
     height: 100px;
+    margin-top: 2rem;
 }
 
 .box-lista-alunos .lista-alunos {
     display: flex;
-    gap: 2rem;
-    padding-inline: 7%;
-}
-
-.lista-alunos .aluno {
-    display: flex;
-    align-items: center;
-    gap: 1.3rem;
-}
-
-.lista-alunos .aluno .box-img-aluno {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    border: 2px solid var(--secondary-color);
-    overflow: hidden;
-}
-
-.lista-alunos .aluno .box-img-aluno img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    gap: 1.5rem;
+    padding-inline: 3%;
 }
 
 /* Container do elemento */
@@ -191,13 +172,19 @@
   margin: 0;
 }
 
+.card-info .formacoes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 10px 0 10px;
+}
+
 .card-info .formacoes .formacao {
     display: inline-flex;
     align-items: center;
     justify-content: center;
 
-    min-height: 36px;
-    padding: 0px 14px;
+    padding: 7px 14px;
 
     border-radius: 999px;
 
