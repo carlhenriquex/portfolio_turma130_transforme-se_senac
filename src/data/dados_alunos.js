@@ -192,7 +192,7 @@ export const alunos = [
     foto: "src/img/alunos/flavio.jpg",
     nome: "Flávio Aureliano",
     funcao: "Quality Assurance",
-    formacoes: ["Análise de dados", "Análise e Desenvolvimento de Sistemas", "Suporte técnico", "Help desk"],
+    formacoes: ["Análise de dados", "Análise e Desenvolvimento de Sistemas", "Suporte técnico e Help desk"],
     experiencia: "Jovem aprendiz TI, Estágio suporte interno TI",
     interesses: "Cibersegurança",
     github: "https://github.com/flavioaccf ",
