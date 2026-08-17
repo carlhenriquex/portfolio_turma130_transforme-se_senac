@@ -351,15 +351,11 @@ h2.github-linkedin {
     text-decoration: nome;
     transition: transform 0.3s ease, filter 0.3s ease;
 }
-.redes-sociais a.linkedin  svg,
-.redes-sociais a.linkedin:visited svg{
-    fill: #0A66C2 !important;
-    color: #0A66C2 !important;
+.redes-sociais a.linkedin  svg{
+    fill: #0A66C2;
 }
-.redes-sociais a.github svg ,
-.redes-sociais a.github:visited svg{
-    fill: #FFFFFF !important;
-    color: #FFFFFF !important;
+.redes-sociais a.github svg {
+    fill: #FFFFFF;
 }
 .redes-sociais a:hover {
     transform: scale(1.25);
