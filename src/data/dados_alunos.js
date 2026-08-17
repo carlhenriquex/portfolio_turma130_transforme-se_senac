@@ -4,7 +4,7 @@ export const alunos = [
   {
     foto: "src/img/alunos/adriele.jpg",
     nome: "Adrielly Alexandra",
-    funcao: "Designer UI",
+    ffuncao: "Desenvolvedor front-end",
     formacoes: ["Análise e Desenvolvimento de Sistemas"],
     experiencia: "Hackathon, Auditoria de Qualidade",
     interesses: "Back-End Developer, Cybersegurança e Design",
@@ -70,6 +70,7 @@ export const alunos = [
   { 
     foto: "src/img/alunos/lucas.jpg",
     nome: "Lucas Leite de Andrade Porto Americo",
+    funcao:"Designer UX",
     formacoes: ["Programação Front-end"],
     experiencia: "Design UX e Projetos de Front-end",
     interesses: "Informática, Design e Administração",
@@ -80,6 +81,7 @@ export const alunos = [
   {
     foto: "src/img/alunos/marcio.jpg",
     nome: "Márcio Eduardo",
+    funcao: "Desenvolvedor back-end",
     formacoes: ["Técnico em Informática", "Programação Front-end"],
     experiencia: "Entendimento em hardware, Software",
     interesses: "Artes Marciais, Informatica e UFC.",
@@ -90,6 +92,7 @@ export const alunos = [
   { 
     foto: "src/img/alunos/elisa.jpg",
     nome: "Maria Elisa",
+    funcao:"Designer UX",
     formacoes: ["Programação Front-end"],
     experiencia: "Projetos Front end",
     interesses: "Design",
@@ -100,6 +103,7 @@ export const alunos = [
   {
     foto: "src/img/alunos/matheus.jpg",
     nome: "Matheus Marques",
+    funcao: "Desenvolvedor back-end",
     formacoes: ["Análise e Desenvolvimento de Sistemas"],
     experiencia: "Projetos acadêmicos na área de Desenvolvimento e Engenharia de software",
     interesses: "Backend",
@@ -110,6 +114,7 @@ export const alunos = [
   { 
     foto: "src/img/alunos/sabrina.jpg",
     nome: "Sabrina Barros",
+    funcao: "Desenvolvedor back-end",
     formacoes: ["Análise e Desenvolvimento de Sistemas"],
     experiencia:"Projetos",
     interesses: "Backend",
@@ -120,6 +125,7 @@ export const alunos = [
   {
     foto: "src/img/alunos/vitor.jpg",
     nome: "Vitor Gabriel",
+    funcao: "Desenvolvedor front-end",
     formacoes: [" Ensino Médio (em andamento)"],
     experiencia: "Desenvolvimento em Front End",
     interesses: "Informática",
@@ -130,6 +136,7 @@ export const alunos = [
   {
     foto: "src/img/alunos/helena.jpg",
     nome: "Maria Helena",
+    funcao:"Designer UI",
     formacoes: ["Análise e Desenvolvimento de Sistemas", "Pedagogia (em andamento)"],
     experiencia: "Projetos na área de Desenvolvimento Front End e Estágios na área de pedagogia",
     interesses: "Design",
@@ -140,6 +147,7 @@ export const alunos = [
   {
     foto: "src/img/alunos/messias.jpg",
     nome: "Messias Kaynã",
+    funcao: "Desenvolvedor front-end",
     formacoes: ["Ciência da Computação","Análise e Desenvolvimento de Sistemas (em andamento)"],
     experiencia: "Desenvolvedor front-end e Redes",
     interesses: "Cybersecurity e Desenvolvedor Full-Stack",
@@ -150,6 +158,7 @@ export const alunos = [
   {
     foto: "src/img/alunos/danilo.jpg",
     nome: "Danilo de Freitas",
+    funcao: "QA qualidade",
     formacoes: ["Auxiliar administrativo", "Desenvolvedor Front-End", "Técnico administrativo (em andamento)"],
     experiencia: "Atendimento ao cliente, Recepção e vendedor",
     interesses: "Engenharia mecânica, Engenharia automotiva e Marketing",
@@ -160,6 +169,7 @@ export const alunos = [
   {
     foto: "src/img/alunos/edinaldo.jpg",
     nome: "Edinaldo da Silva",
+    funcao:"Designer UI",
     formacoes: ["Programação Front-end"],
     experiencia: "Designer UI",
     interesses: "Desenvolvimento front-end, Design UI",
@@ -170,6 +180,7 @@ export const alunos = [
   {
     foto: "src/img/alunos/ewerton.jpg",
     nome: "Ewerton Henrique",
+    funcao: "Desenvolvedor back-end",
     formacoes: ["Programação Front-end"],
     experiencia: "Suporte de TI, Auxiliar administrativo, Montagem e Manutenção de Computadores e Gestão Empresarial com Software ERP",
     interesses: "Desenvolvedor Fullstack",
@@ -180,6 +191,7 @@ export const alunos = [
   {   
     foto: "src/img/alunos/flavio.jpg",
     nome: "Flávio Aureliano",
+    funcao: "QA qualidade",
     formacoes: ["Análise de dados", "Análise e Desenvolvimento de Sistemas", "Suporte técnico", "Help desk"],
     experiencia: "Jovem aprendiz TI, Estágio suporte interno TI",
     interesses: "Cibersegurança",
@@ -190,6 +202,7 @@ export const alunos = [
   {
     foto: "src/img/alunos/isabely.jpg",
     nome: "Isabely Cabral",
+    funcao: "Desenvolvedor front-end",
     formacoes: ["Técnico em Administração", "Técnico em Logística", "Tecnólogo em Gestão Financeira (em andamento)","Programação Front-end"],
     experiencia: "Projetos de Front-end, Administração e Área financeira",
     interesses: "Desenvolvimento front-end",
@@ -200,6 +213,7 @@ export const alunos = [
   {
     foto: "src/img/alunos/eduarda.jpg",    
     nome: "Eduarda Santana",
+    funcao:"Designer UX",
     formacoes: ["Ciências Contábeis"],
     experiencia: "Analista Fiscal",
     interesses: "Análise de Dados e Design Web",
@@ -210,6 +224,7 @@ export const alunos = [
   {
     foto: "src/img/alunos/thamires.jpg",
     nome: "Thamires Vitória",
+    funcao: "Desenvolvedor front-end",
     formacoes: ["Análise e Desenvolvimento de Sistemas"],
     experiencia: "Experiência em projetos acadêmicos pelo Porto Digital, DIO, curso de Análise e Desenvolvimento de Sistemas pela ETE",
     interesses: "FullStack" ,
@@ -220,6 +235,7 @@ export const alunos = [
   {
     foto:"src/img/alunos/kawanne.jpg",
     nome: "Kawanne Ketllyn",
+    funcao: "Desenvolvedor front-end",
     formacoes: ["Ensino médio completo"],
     experiencia: " Desenvolvimento front-end. (em andamento)",
     interesses: "Fullstack",
@@ -230,6 +246,7 @@ export const alunos = [
   {
     foto: "src/img/alunos/joao.jpg",
     nome:"Joao Vitor",
+    funcao:"Designer UX",
     formacoes: ["Análise e Desenvolvimento de Sistemas", "Suporte técnico", "Eletrônica básica"],
     experiencia: "Consertos de eletrodomésticos, Computadores, Controles e Componentes e Desenvolvimento básico na área de Java script", 
     interesses: "Desenvolver mais na área de sistemas e fazer Network",
@@ -239,6 +256,7 @@ export const alunos = [
 
   {
     foto:"src/img/alunos/mariaeduardafe.jpg",
+    funcao: "Desenvolvedor front-end",
     nome: "Maria Eduarda",
     formacoes: ["Ensino Médio completo"],
     experiencia: "",
