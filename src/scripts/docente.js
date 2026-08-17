@@ -1,59 +1,65 @@
-const cards = document.querySelectorAll(".card-docente");
-const bolinhas = document.querySelectorAll(".bolinha");
+const docentes = document.querySelectorAll(".docente-slide");
+const bolinhasDocentes = document.querySelectorAll(".bolinha-docente");
 
-const botaoAnterior = document.getElementById("anterior");
-const botaoProximo = document.getElementById("proximo");
+const botaoAnteriorDocente =
+    document.getElementById("docente-anterior");
 
-let cardAtual = 0;
+const botaoProximoDocente =
+    document.getElementById("docente-proximo");
 
-function atualizarCarrossel() {
+let docenteAtual = 0;
 
-    cards.forEach((card, index) => {
-        card.classList.remove("ativo");
 
-        if (index === cardAtual) {
-            card.classList.add("ativo");
-        }
+function mostrarDocente() {
+
+    docentes.forEach((docente) => {
+        docente.classList.remove("ativo");
     });
 
-    bolinhas.forEach((bolinha, index) => {
+    bolinhasDocentes.forEach((bolinha) => {
         bolinha.classList.remove("ativo");
-
-        if (index === cardAtual) {
-            bolinha.classList.add("ativo");
-        }
     });
+
+    docentes[docenteAtual].classList.add("ativo");
+
+    bolinhasDocentes[docenteAtual].classList.add("ativo");
 }
 
-botaoProximo.addEventListener("click", () => {
 
-    cardAtual++;
+botaoProximoDocente.addEventListener("click", () => {
 
-    if (cardAtual >= cards.length) {
-        cardAtual = 0;
+    docenteAtual++;
+
+    if (docenteAtual >= docentes.length) {
+        docenteAtual = 0;
     }
 
-    atualizarCarrossel();
+    mostrarDocente();
 });
 
-botaoAnterior.addEventListener("click", () => {
 
-    cardAtual--;
+botaoAnteriorDocente.addEventListener("click", () => {
 
-    if (cardAtual < 0) {
-        cardAtual = cards.length - 1;
+    docenteAtual--;
+
+    if (docenteAtual < 0) {
+        docenteAtual = docentes.length - 1;
     }
 
-    atualizarCarrossel();
+    mostrarDocente();
 });
 
-bolinhas.forEach((bolinha, index) => {
+
+bolinhasDocentes.forEach((bolinha, index) => {
 
     bolinha.addEventListener("click", () => {
-        cardAtual = index;
 
-        atualizarCarrossel();
+        docenteAtual = index;
+
+        mostrarDocente();
     });
+
 });
 
-atualizarCarrossel();
+
+mostrarDocente();
