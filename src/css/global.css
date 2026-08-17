@@ -62,8 +62,21 @@ section {
     padding: 0 8px;
     font-size: 0.8rem;
 }
-.github/linkedin{
+.github-linkedin {
     display: flex;
     aling-items: center;
     gap: 10px;
+}
+.redes-sociais {
+    display: flex;
+    gap: 8px;
+}
+.redes-sociais img {
+    width: 25px;
+    transition: all 0.3 ease;
+}
+.redes-sociais a:hover img {
+    transform: scale(1.2):
+    filter: drop-shadow(0 0 8px #F6BE36);
+    cursor: pointer;
 }
