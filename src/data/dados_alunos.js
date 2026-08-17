@@ -66,7 +66,7 @@ export const alunos = [
   { 
     foto: "src/img/alunos/lucas.jpg",
     nome: "Lucas Leite de Andrade Porto Americo",
-    formacoes: ["Programação Front-end (em andamento)"],
+    formacoes: ["Programação Front-end"],
     experiencia: "Design UX e Projetos de Front-end",
     interesses: "Informática, Design e Administração",
     github: "https://github.com/lucasandrade21porto-ops",
@@ -76,7 +76,7 @@ export const alunos = [
   {
     foto: "src/img/alunos/marcio.jpg",
     nome: "Márcio Eduardo",
-    formacoes: ["Técnico em Informática", "Programação Front-end (em andamento)"],
+    formacoes: ["Técnico em Informática", "Programação Front-end"],
     experiencia: "Entendimento em hardware, Software",
     interesses: "Artes Marciais, Informatica e UFC.",
     github: "https://github.com/marcioart878-stack",
@@ -86,7 +86,7 @@ export const alunos = [
   { 
     foto: "src/img/alunos/elisa.jpg",
     nome: "Maria Elisa",
-    formacoes: ["Programação Front-end (em andamento)"],
+    formacoes: ["Programação Front-end"],
     experiencia: "Projetos Front end",
     interesses: "Design",
     github: "https://github.com/lisalizz2110-svg",
@@ -96,9 +96,9 @@ export const alunos = [
   {
     foto: "src/img/alunos/matheus.jpg",
     nome: "Matheus Marques",
-    formacoes: ["Análise e Desenvolvimento de Sistemas (em andamento)"],
+    formacoes: ["Análise e Desenvolvimento de Sistemas"],
     experiencia: "Projetos acadêmicos na área de Desenvolvimento e Engenharia de software",
-    interesses: " backend",
+    interesses: "Backend",
     github: "https://github.com/Matheus-marques2",
     linkedin: "https://www.linkedin.com/in/matheus-marques-santos/"
   },
@@ -156,7 +156,7 @@ export const alunos = [
   {
     foto: "src/img/alunos/edinaldo.jpg",
     nome: "Edinaldo da Silva",
-    formacoes: ["Programação Front-end (em andamento)"],
+    formacoes: ["Programação Front-end"],
     experiencia: "Designer UI",
     interesses: "Desenvolvimento front-end, Design UI",
     github: "https://github.com/edinaldodasilvaramoss-collab",
@@ -166,7 +166,7 @@ export const alunos = [
   {
     foto: "src/img/alunos/ewerton.jpg",
     nome: "Ewerton Henrique",
-    formacoes: ["Programação Front-end (em andamento)"],
+    formacoes: ["Programação Front-end"],
     experiencia: "Suporte de TI, Auxiliar administrativo, Montagem e Manutenção de Computadores e Gestão Empresarial com Software ERP",
     interesses: "Desenvolvedor Fullstack",
     github: "https://github.com/EwertonHenriquex",
@@ -186,7 +186,7 @@ export const alunos = [
   {
     foto: "src/img/alunos/isabely.jpg",
     nome: "Isabely Cabral",
-    formacoes: ["Técnico em Administração", "Técnico em Logística", "Tecnólogo em Gestão Financeira (em andamento)","Programação Front-end (em andamento)"],
+    formacoes: ["Técnico em Administração", "Técnico em Logística", "Tecnólogo em Gestão Financeira (em andamento)","Programação Front-end"],
     experiencia: "Projetos de Front-end, Administração e Área financeira",
     interesses: "Desenvolvimento front-end",
     github: "https://github.com/ISABELY430",
