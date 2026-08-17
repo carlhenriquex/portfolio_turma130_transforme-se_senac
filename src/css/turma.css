@@ -9,19 +9,39 @@
     flex-direction: column;
     background-image: url(../img/banners/banner_turma.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center 75%;
     background-repeat: no-repeat;
     height: 850px;
-    padding-top: 120px;
+    padding-top: 100px;
 }
+
+.carrossel {
+    width: 100%;
+    margin: 50px auto;
+}
+
+.carrossel-janela {
+    width: 100%;
+    overflow: hidden;
+    cursor: grab;
+    padding: 30px 10px;
+}
+
 
 .galeria-polaroid {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 25px;
-    flex-wrap: wrap;
-    margin-top: 4rem;
+    gap: 35px;
+    flex-wrap: nowrap;
+    margin-top: 2rem;
+    width: max-content;
+
+    user-select: none;
+    -webkit-user-select: none;
+
+    transform: translateX(0);
+    will-change: transform;
 }
 
 .polaroid {
@@ -46,6 +66,11 @@
     display: block;
     overflow: hidden;
     transition: .4s ease;
+
+    user-select: none;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
 }
 
 .polaroid:nth-child(1) {
@@ -64,6 +89,9 @@
     transform: rotate(5deg);
 }
 
+.polaroid:nth-child(5) {
+    transform: rotate(-3deg);
+}
 
 .polaroid:hover {
     transform: rotate(0deg) translateY(-10px) scale(1.05);
