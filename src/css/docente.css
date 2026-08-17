@@ -333,20 +333,20 @@
 }
 h2.github-linkedin {
     display: flex;
-    aling-itens: center;
+    aling-items: center;
     justify-content: center;
     gap: 8px;
     flex-wrap: wrap;
 }
 .redes-sociais {
     display: inline-flex;
-    aling-itens: center;
+    aling-items: center;
     gap: 8px;
     margin-left: 4px;
 }
 .redes-sociais a {
     display: inline-flex;
-    aling-itens: center;
+    aling-items: center;
     justify-content: center;
     text-decoration: nome;
     transition: transform 0.3s ease, filter 0.3s ease;
