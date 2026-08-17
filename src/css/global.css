@@ -1,5 +1,7 @@
 /* Definicoes de estilos globais (para todo o projeto) */
-
+html{
+    scroll-behavior: smooth;
+}
 :root {
     --fonte: "Montserrat", sans-serif;
 
