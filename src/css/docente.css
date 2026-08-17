@@ -336,9 +336,7 @@
 
 }
 
-/* =============================== */
 /* CARROSSEL ENTRE AS DOCENTES */
-/* =============================== */
 
 .conteudo.docente-slide {
     display: none;
@@ -349,11 +347,12 @@
 }
 
 
-/* NAVEGAÇÃO DAS DOCENTES */
+/* ================================= */
+/* NAVEGAÇÃO ENTRE RADÁSSILA/TAMARA */
+/* ================================= */
 
 .navegacao-docentes {
     width: 100%;
-
     margin-top: 25px;
 
     display: flex;
@@ -363,31 +362,64 @@
     gap: 10px;
 }
 
-.navegacao-docentes button {
+
+/* SETAS */
+
+#docente-anterior,
+#docente-proximo {
     border: none;
     background: transparent;
 
     color: white;
 
-    cursor: pointer;
-}
-
-#docente-anterior,
-#docente-proximo {
     font-size: 30px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
 }
 
-.bolinha-docente {
+
+/* SETAS FICAM AMARELAS NO HOVER */
+
+#docente-anterior:hover,
+#docente-proximo:hover {
+    color: var(--secondary-color);
+}
+
+
+/* BOLINHAS */
+
+.navegacao-docentes .bolinha-docente {
     width: 9px;
     height: 9px;
 
     padding: 0;
 
+    border: none;
     border-radius: 50%;
 
-    background: white;
+    /* força branco */
+    background: white !important;
+
+    cursor: pointer;
+
+    transition: background 0.3s ease,
+                transform 0.3s ease;
 }
 
-.bolinha-docente.ativo {
-    background: var(--secondary-color);
+
+/* BOLINHA FICA AMARELA SOMENTE NO HOVER */
+
+.navegacao-docentes .bolinha-docente:hover {
+    background: var(--secondary-color) !important;
+
+    transform: scale(1.3);
+}
+
+
+/* MESMO A BOLINHA ATIVA CONTINUA BRANCA */
+
+.navegacao-docentes .bolinha-docente.ativo {
+    background: var(--secondary-color) !important;
 }
